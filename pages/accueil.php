@@ -30,13 +30,12 @@ $_SESSION['ouvert']=1;
                 echo'<a class="nav-link nav-item" href="Utilisateur.php">Utilisateurs</a>';
             }        
         ?>
-        <a class="nav-link nav-item" href="../index.php">Déconnection</a>
+        <a class="nav-link nav-item" href="deconnexion.php">Déconnection</a>
     </nav>
     <header></header>
     <section class="container">
         <?php
             echo"<h2 class='bienv'>Bienvenue ".$_SESSION["nom"]."</h2>";//affiche bienvenue suivi du nom de l'utilisateur
-            
         ?>
     </section>
     <?php
